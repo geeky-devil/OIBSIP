@@ -1,0 +1,119 @@
+#cent{
+    background-color: aliceblue;
+    margin-left: 25%;
+    margin-top: 30px;
+    width: 600px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: cornflowerblue;
+    background-blend-mode: color;
+    position: relative;
+}
+#txt{
+    width: 570px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    bottom: 80%;
+    background-color: rgb(223, 230, 193);
+    transform: translate(-50%,-50%);
+    border-radius: 24px;
+}
+.btn1{
+    border-radius: 12px;
+    padding: 4px;
+    margin-top: 45%;
+    margin-left: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: aquamarine;
+    font-size: large;
+    font-style:normal;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+}
+
+.btn2{
+    border-radius: 12px;
+    padding: 4px;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: aquamarine;
+    font-size: large;
+    font-style:normal;
+    
+}
+.btn3{
+    border-radius: 12px;
+    padding: 4px;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: aquamarine;
+    font-size: large;
+    font-style:normal;
+    
+}
+.btn1:focus{
+    border: none;
+    outline: none;
+    width: 40px;
+    height: 40px;
+    margin-left: 60px;
+}
+.btn2:focus{
+    border: none;
+    outline: none;
+    width: 40px;
+    height: 40px;
+    margin-left: 60px;
+}
+.btn3:focus{
+    border: none;
+    outline: none;
+    width: 40px;
+    height: 40px;
+    margin-left: 60px;
+}
+.btn4:focus{
+    border: none;
+    outline: none;
+    width: 40px;
+    height: 40px;
+    margin-left: 60px;
+}
+.btn4{
+    border-radius: 12px;
+    padding: 4px;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: aquamarine;
+    font-size: large;
+    font-style:normal;
+    
+}   
+#op{
+    font-size: x-large;
+    margin-left: 80%;
+    margin-top: 25%;
+    width: 100px;
+}
+#str{
+    font-size: small;
+    margin-left: 80%;
+    margin-top: -100px;
+    width: 100px;
+}
+body{
+    background-color: aqua;
+}
