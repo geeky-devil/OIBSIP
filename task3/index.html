@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do</title>
+</head>
+<link rel="stylesheet" href="index.css">
+<body onbeforeunload="save()" onload="get()" id="body">
+    <div class="ip_box" id="l">
+            <input type="text" name="title" id="title" placeholder="Enter Title">
+            <textarea type="text" name="desc" id="desc"  placeholder="Description"> </textarea>
+            <button id="submit"> ADD</button>   
+    </div>
+    <div class="task_list" id="t_list">
+    </div>
+    <div class="disp" id="op" hidden >
+        <h1 id="cur_title"></h1>
+        <p id="cur_desc" ></p>
+        <p2 id="date"> </p2>
+        <button id="del" class="btn_del">x</button>
+    
+    </div>
+    
+</body>
+<script src="index.js"></script>
+</html>
